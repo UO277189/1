@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://localhost/Ejercicio-7/Ejercicio7.php?mostrarDatos -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="author" content="Efrén García Valencia">
+    <meta name="keywords" content="baseDeDatosEjercicio7">
+    <meta name="description" content="Manejo con bases de datos desde php para el ejercicio 7">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+   
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 7: manejo con bases de datos desde PHP</h1>
+        <h2>Por favor, seleccione alguna de las opciones que se muestran a continuación</h2>
+    </header>
+
+
+    <p> Conexión realizada correctamente</p><p>DATOS GLOBALES</p><p>CLIENTE</p><p> DNI = 51555488P nombre = Laura apellidos = Garcia correo = laura@gmail.com</p><p> DNI = 71777488P nombre = Efren apellidos = garcia correo = efrengv15@gmail.com</p><p> DNI = 81777488T nombre = Sara apellidos = Garcia correo = saragv@gmail.com</p><p> DNI = 91777488N nombre = Juan apellidos = Garcia correo = juan@gmail.com</p><p>ARTÍCULO</p><p> ID = articuloA nombre = pokemonAB categoria = juego descripcion = juego de pokemon precio = 50</p><p> ID = articuloX nombre = gormiti categoria = juguete descripcion = gormiti desmontable precio = 15</p><p> ID = articuloY nombre = pokemon categoria = juego descripcion = juego de pokemon precio = 35</p><p> ID = articuloZ nombre = playmobil categoria = juguete descripcion = playmobil desmontable precio = 28</p><p>PEDIDO</p><p> ID = pedidoX dni_cliente = 71777488P transporte = SI</p><p> ID = pedidoY dni_cliente = 81777488T transporte = SI</p><p>ARTICULO_PEDIDO</p><p> id_articulo= articuloXid_pedido= pedidoX cantidad = 100</p><p> id_articulo= articuloYid_pedido= pedidoY cantidad = 50</p>
+        <nav>
+        <ol>
+
+
+            <li>
+                <a title="Añadir cliente" tabindex="1" accesskey="A" href="http://localhost/Ejercicio-7/A%C3%B1adirCliente.html">
+                    Añadir un cliente
+                </a>
+            </li> 
+
+
+            <li>
+                <a title="Añadir articulo" tabindex="2" accesskey="D" href="http://localhost/Ejercicio-7/A%C3%B1adirArticulo.html">
+                    Añadir un artículo
+                </a>
+            </li> 
+
+            <li>
+                <a title="Añadir pedido" tabindex="3" accesskey="P" href="http://localhost/Ejercicio-7/A%C3%B1adirPedido.html">
+                    Añadir un pedido
+                </a>
+            </li> 
+
+
+            <li>
+                <a title="Asociar un pedido con su artículo" tabindex="4" accesskey="S" href="http://localhost/Ejercicio-7/AsociarPedidoArticulo.html">
+                    Asociar pedido y artículo
+                </a>
+            </li> 
+
+
+            <li>
+                <a title="Borrar cliente" tabindex="5" accesskey="B" href="http://localhost/Ejercicio-7/BorrarCliente.html">
+                    Borrar cliente
+                </a>
+            </li> 
+
+            <li>
+                <a title="Borrar artículo" tabindex="6" accesskey="O" href="http://localhost/Ejercicio-7/BorrarArticulo.html">
+                    Borrar artículo
+                </a>
+            </li> 
+
+            <li>
+                <a title="Borrar pedido" tabindex="7" accesskey="R" href="http://localhost/Ejercicio-7/BorrarPedido.html">
+                    Borrar pedido
+                </a>
+            </li> 
+
+            <li>
+                <a title="Eliminar asociación entre pedido y artículo" tabindex="8" accesskey="L" href="http://localhost/Ejercicio-7/EliminarAsociacion.html">
+                    Eliminar asociación entre pedido y artículo
+                </a>
+            </li> 
+
+
+            <li>
+                <a title="Modificar cliente" tabindex="9" accesskey="M" href="http://localhost/Ejercicio-7/ModificarCliente.html">
+                    Modificar cliente
+                </a>
+            </li> 
+
+            <li>
+                <a title="Modificar articulo" tabindex="10" accesskey="D" href="http://localhost/Ejercicio-7/ModificarArticulo.html">
+                    Modificar articulo
+                </a>
+            </li> 
+
+            <li>
+                <a title="Modificar pedido" tabindex="11" accesskey="F" href="http://localhost/Ejercicio-7/ModificarPedido.html">
+                    Modificar pedido
+                </a>
+            </li> 
+
+            <li>
+                <a title="Modificar asociación" tabindex="12" accesskey="N" href="http://localhost/Ejercicio-7/ModificarAsociacion.html">
+                    Modificar asociación
+                </a>
+            </li> 
+
+            <li>
+                <a title="Mostrar instrucciones de uso" tabindex="13" accesskey="T" href="http://localhost/Ejercicio-7/Ejercicio7.php?mostrarInstrucciones">
+                    Mostrar instrucciones de uso
+                </a>
+            </li> 
+
+
+            <li>
+                <a title="Mostrar datos" tabindex="14" accesskey="D" href="http://localhost/Ejercicio-7/Ejercicio7.php?mostrarDatos">
+                    Mostrar los datos de todas las tablas
+                </a>
+            </li> 
+
+
+
+            <li>
+                <a title="Cargar clientes desde un archivo CSV" tabindex="15" accesskey="I" href="http://localhost/Ejercicio-7/ImportarCSVCliente.html">
+                Cargar clientes desde un archivo CSV
+                </a>
+            </li> 
+
+            <li>
+                <a title="Cargar artículos desde un archivo CSV" tabindex="16" accesskey="G" href="http://localhost/Ejercicio-7/ImportarCSVArticulo.html">
+                Cargar artículos desde un archivo CSV
+                </a>
+            </li> 
+
+            <li>
+                <a title="Exportar datos a un archivo en formato CSV los datos desde una tabla de la Base de Datos" tabindex="17" accesskey="X" href="http://localhost/Ejercicio-7/Ejercicio7.php?exportarDatosTabla">
+                Exportar datos a CSV
+                </a>
+            </li> 
+
+
+        </ol>
+        </nav>
+        </body></html>
